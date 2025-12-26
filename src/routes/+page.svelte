@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Navbar from "$lib/components/Navbar.svelte";
 	import Hero from "$lib/components/Hero.svelte";
+	import ServicePillars from "$lib/components/ServicePillars.svelte";
 	import ProductGrid from "$lib/components/ProductGrid.svelte";
 	import BundleSection from "$lib/components/BundleSection.svelte";
 	import ScienceSection from "$lib/components/ScienceSection.svelte";
@@ -14,6 +15,7 @@
 <main class="w-full min-h-screen bg-white">
 	<Navbar />
 	<Hero />
+	<ServicePillars />
 	<ProductGrid />
 	<BundleSection />
 	<ScienceSection />
